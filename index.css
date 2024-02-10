@@ -1,0 +1,170 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+*{
+
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family: 'Poppins', sans-serif;
+
+}
+#nav-bar{
+    position:sticky;
+    top:0;
+    left:0;
+    z-index:100;
+    padding:.5rem 5rem;
+    box-shadow:5px 5px 20px rgba(0,0,0,0.5);
+    background-color:black;
+   
+
+}
+#nav-bar .navbar-brand{
+    font-size:25px;
+    font-weight:800;
+    color:#29f700;
+    position:sticky;
+    
+}
+
+
+
+#navbarSupportedContent a{
+    color:white;
+    border-bottom:2px solid transparent;
+}
+
+#navbarSupportedContent button{
+    background-color:#29f700;
+    width:5rem;
+    border-radius:15px;
+    
+}
+
+section{
+    width:100%;
+    min-height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+/***HOME***/
+
+#home{
+    background:url(wal2.jpg);
+    background-size:cover;
+    background-position:center;
+    flex-direction:column;
+
+}#home h1{
+    font-size:80px;
+    color:rgb(252, 245, 250);
+    letter-spacing:3px;
+    font-family:verdana,Geneva,Tahoma,sens-serif;
+    text-shadow:0px 1px 0px #ccc,
+    0px 1px 0px #ccc,
+    0px 1px 0px #ccc,
+    0px 1px 0px #ccc,
+    0px 1px 0px #ccc,
+
+    0px 1px 0px #ccc;
+}
+#home p{
+    font-size:18px;
+    color:rgb(238, 230, 230);
+
+}
+#home .input-group{
+    width:35%;
+    height:30px;
+}
+.signin{
+    background:green !important;
+    color:white;
+    box-shadow:2px 4px 5px rgba(0,0,0,.5);
+    
+}
+/***********shop***/
+#shop{
+    background:linear-gradient(#d74982,#eb466b 100%)
+}
+#shop h1{
+    font-weight:800;
+    font-size:50px;
+    color:white;
+
+}
+#shop p{
+    color:rgb(32, 30, 30);
+}
+#category{
+    background:#e5e5e5;
+}
+#category h1{
+    font-size:50px;
+    letter-spacing:2px;
+    font-weight:700;
+}
+#catergoy img{
+    width:200px;
+    height:200px;
+
+}
+.card{
+    width:250px;
+    height:250px;
+    background:#e5e5e5 !important;
+    border:none !important;
+    box-shadow:15px 20px 20px rgba(0,0,0,.3),
+    inset 4px 4px 10px white;
+    border-radius:20px!important;
+    overflow:hidden;
+    justify-content:center;
+    align-items:center;
+    margin:20px 60px;
+}
+.card:hover{
+    box-shadow:inset 15px 20px 20px rgba(0,0,0,.3),
+     4px 4px 10px white;
+transition:.2s;
+}
+/*------About***/
+#about img{
+    height:100;
+
+}
+.box{
+    width:80% !important;
+    background-position:red;
+    margin-top:10px;
+}
+form{
+    display:flex;
+    flex-direction:column;
+
+}
+
+#about input{
+    margin:10px 0px;
+
+}
+#about textarea{
+    margin:10px 0px;
+}
+#footer{
+    height:100%;
+    width:30px;
+    background:rgba(0,0,0,.8);
+    margin-top:-30px;
+    text-align:center;
+    color:white;
+    padding:3px;
+}
+#footer nav ul a{
+    align-items:center;
+    padding:4px 8px;
+    
+
+    color:black;
+
+
+}
